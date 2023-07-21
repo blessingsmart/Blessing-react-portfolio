@@ -10,11 +10,11 @@ const About = () => {
                 </p>
             </div>
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perferendis accusantium ab dicta corporis aperiam culpa qui sunt? Sed, necessitatibus voluptate dolores blanditiis ipsa quod ullam deserunt voluptates ut accusamus. Impedit, unde mollitia, doloribus natus error, aperiam fugit doloremque omnis optio quasi veniam? Iure quos velit corporis asperiores voluptatem praesentium.
+                As a data scientist with a strong expertise in data analysis and visualization, I have honed my skills in transforming raw data into meaningful and actionable visuals that drive crucial business decision-making. With over two years of experience in a business setting, I have successfully analyzed complex datasets, providing valuable insights to enhance organizational efficiency and performance. Beyond my proficiency in data science, I also hold a leadership role in Loveworld Inc (aka Christ Embassy), where I apply data-driven strategies to support the organization's growth and impact.
             </p>
             <br/>
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi similique doloribus quaerat? Harum ut dolores ipsam sed atque dolorem est, eligendi pariatur nam magnam eveniet ullam tempore eius. Cupiditate reiciendis ipsam, laborum possimus placeat in voluptatum tempore ea! Nostrum aut vero sint consequatur dignissimos quidem rem adipisci ad explicabo?
+                As a data scientist with a strong background in frontend development, I possess a passion for education, leading a class of 70+ individuals to excel in Pro Excel and thrive in data-driven environments. Alongside my data science prowess, I'm adept in graphics design using Photoshop and Canva. Certified in business analytics, data science with Python, and CompTIA A+, I'm committed to innovative solutions and making a positive impact through analytics, creative problem-solving, and building dynamic web applications using React and Tailwind.
             </p>
         </div>
     </div>
