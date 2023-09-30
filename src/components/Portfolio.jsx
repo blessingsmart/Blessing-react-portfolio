@@ -1,36 +1,40 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import excel from '../assets/portfolio/excel.jpg'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
+import sheet from '../assets/portfolio/sheet.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import sourcereflect from '../assets/portfolio/sourcereflect.png'
 
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            src: excel,
+            demo: 'https://docs.google.com/spreadsheets/d/1mmwzcQNCNh68F8ZPdFCld-YAtKRy7YksgpVRD9tPOlM/edit?usp=sharing'
         },
         {
             id: 2,
-            src: reactParallax
+            src: sheet,
+            demo: 'https://docs.google.com/spreadsheets/d/1mmwzcQNCNh68F8ZPdFCld-YAtKRy7YksgpVRD9tPOlM/edit#gid=759693817&range=A11'
         },
         {
             id: 3,
-            src: navbar
+            src: navbar,
         },
         {
             id: 4,
-            src: reactSmooth
+            src: reactSmooth,
         },
         {
             id: 5,
-            src: installNode
+            src: installNode,
         },
         {
             id: 6,
-            src: reactWeather
+            src: sourcereflect,
+            code: 'https://github.com/blessingsmart/sourcereflect1',
+            demo: 'https://sourcereflect.netlify.app/'
         },
     ]
 
@@ -45,12 +49,12 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                 {
-                portfolios.map(({ id, src }) => (
+                portfolios.map(({ id, src, code, demo }) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                         <img src={src} alt='' className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-3  duration-200 hover:scale-105'>Demo</button >
-                            <button className='w-1/2 px-6 py-3  duration-200 hover:scale-105'>Code</button>
+                            <a href={demo} className='w-1/2 px-6 py-3  duration-200 hover:scale-105'  target="_blank" rel="noopener noreferrer">Demo</a>
+                            <a href={code} className='w-1/2 px-6 py-3  duration-200 hover:scale-105'  target="_blank" rel="noopener noreferrer">Code</a>
                         </div>
                     </div>
                     ))}
