@@ -32,7 +32,7 @@ const Portfolio = () => {
             id: 5,
             src: login,
             code: 'https://github.com/TechStarsCommunity/FE-Online_Library/tree/Blessing-Login',
-            demo: 'https://login-blessing.netlify.app/login'
+            demo: 'https://book-slab.netlify.app/login'
         },
         {
             id: 6,
