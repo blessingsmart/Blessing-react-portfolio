@@ -1,9 +1,9 @@
 import React from 'react'
-import excel from '../assets/portfolio/excel.jpg'
+// import excel from '../assets/portfolio/excel.jpg'
 import login from '../assets/portfolio/login.jpg'
 import roadmap from '../assets/portfolio/roadmap.jpg'
-import sheet from '../assets/portfolio/sheet.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+// import sheet from '../assets/portfolio/sheet.jpg'
+// import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import sourcereflect from '../assets/portfolio/sourcereflect.png'
 
 const Portfolio = () => {
