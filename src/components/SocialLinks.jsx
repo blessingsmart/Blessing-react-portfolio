@@ -32,7 +32,7 @@ const SocialLinks = () => {
           Behance <FaBehance size={30}/>
         </>
       ),
-      href: 'https://www.behance.net/blessingeno',
+      href: 'https://www.behance.net/blessingsmart',
     },
     {
       id: 4,
