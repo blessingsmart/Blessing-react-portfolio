@@ -1,33 +1,34 @@
 import React from "react";
 
-import excel from "../assets/excel.png";
-import PowerBi from "../assets/PowerBi.png";
-import numpy from "../assets/numpy.png";
+import Javascript from "../assets/javascript.png";
+import NextJs from "../assets/nextjs.png";
+import expressjs from "../assets/expressjs.png";
 import reactImage from "../assets/react.png";
-import Pandas from "../assets/Pandas.png";
-import Matplotlib from "../assets/Matplotlib.png";
-import seaborn from "../assets/seaborn.png";
+import Laravel from "../assets/laravel.png";
+import MySQL from "../assets/mysql.png";
+import Firebase from "../assets/firebase.svg";
 import tailwind from "../assets/tailwind.png";
+import Mongodb from "../assets/mongodb.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: excel,
-      title: "Excel",
-      style: "shadow-green-500",
+      src: Javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
     },
     {
       id: 2,
-      src: PowerBi,
-      title: "PowerBi",
-      style: "shadow-yellow-500",
+      src: NextJs,
+      title: "NextJs",
+      style: "shadow-white",
     },
     {
       id: 3,
-      src: numpy,
-      title: "Numpy",
-      style: "shadow-yellow-500",
+      src: Laravel,
+      title: "Laravel",
+      style: "shadow-red-600",
     },
     {
       id: 4,
@@ -43,21 +44,27 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: Pandas,
-      title: "Pandas",
-      style: "shadow-blue-900",
+      src: expressjs,
+      title: "ExpressJS",
+      style: "shadow-white",
     },
     {
       id: 7,
-      src: Matplotlib,
-      title: "Matplotlib",
-      style: "shadow-gray-400",
+      src: MySQL,
+      title: "MySQL",
+      style: "shadow-yellow-700",
     },
     {
       id: 8,
-      src: seaborn,
-      title: "Seaborn",
-      style: "shadow-sky-100",
+      src: Firebase,
+      title: "Firebase",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 9,
+      src: Mongodb,
+      title: "MongoDB",
+      style: "shadow-green-500",
     },
   ];
 

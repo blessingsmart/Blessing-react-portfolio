@@ -8,26 +8,26 @@ import sourcereflect from '../assets/portfolio/sourcereflect.png'
 
 const Portfolio = () => {
     const portfolios = [
-        {
-            id: 1,
-            src: excel,
-            demo: 'https://docs.google.com/spreadsheets/d/1mmwzcQNCNh68F8ZPdFCld-YAtKRy7YksgpVRD9tPOlM/edit?usp=sharing'
-        },
-        {
-            id: 2,
-            src: sheet,
-            demo: 'https://docs.google.com/spreadsheets/d/1mmwzcQNCNh68F8ZPdFCld-YAtKRy7YksgpVRD9tPOlM/edit#gid=759693817&range=A11'
-        },
+        // {
+        //     id: 1,
+        //     src: excel,
+        //     demo: 'https://docs.google.com/spreadsheets/d/1mmwzcQNCNh68F8ZPdFCld-YAtKRy7YksgpVRD9tPOlM/edit?usp=sharing'
+        // },
+        // {
+        //     id: 2,
+        //     src: sheet,
+        //     demo: 'https://docs.google.com/spreadsheets/d/1mmwzcQNCNh68F8ZPdFCld-YAtKRy7YksgpVRD9tPOlM/edit#gid=759693817&range=A11'
+        // },
         {
             id: 3,
             src: roadmap,
             code: 'https://github.com/TechStarsCommunity/FE-Online_Library/tree/Blessing-Roadmap',
             demo: 'https://book-slab.netlify.app/'
         },
-        {
-            id: 4,
-            src: reactSmooth,
-        },
+        // {
+        //     id: 4,
+        //     src: reactSmooth,
+        // },
         {
             id: 5,
             src: login,

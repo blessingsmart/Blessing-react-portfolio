@@ -11,11 +11,11 @@ const About = () => {
             </div>
             <div>
               <p className='text-xl'>
-                  As a data scientist with a strong expertise in data analysis and visualization, I have honed my skills in transforming raw data into meaningful and actionable visuals that drive crucial business decision-making. With over two years of experience in a business setting, I have successfully analyzed complex datasets, providing valuable insights to enhance organizational efficiency and performance. Beyond my proficiency in data science, I also hold a leadership role in Loveworld Inc (aka Christ Embassy), where I apply data-driven strategies to support the organization's growth and impact.
+                   I'm a versatile and creative Full Stack Developer with a strong foundation in React, TypeScript, NextJs, Laravel, and PHP. I specialize in building scalable and responsive web applications that deliver smooth user experiences. With hands-on experience in developing RESTful APIs, designing admin dashboards, and collaborating with teams across digital projects, I’m passionate about clean code and user-focused design.
               </p>
               <br/>
               <p className='text-xl'>
-                  As a data scientist with a strong background in frontend development, I possess a passion for education, leading a class of 70+ individuals to excel in Pro Excel and thrive in data-driven environments. Alongside my data science prowess, I'm adept in graphics design using Photoshop and Canva. Certified in business analytics, data science with Python, I'm committed to innovative solutions and making a positive impact through analytics, creative problem-solving, and building dynamic web applications using React and Tailwind.
+                  In addition to web development, I'm a skilled Graphics Designer with a keen eye for branding, layout, and visual storytelling. I design engaging social media content, marketing banners, and UI mockups using tools like Photoshop, Figma, and Canva. Whether I’m coding or designing, I’m driven by creativity, precision, and the goal of making meaningful digital experiences.
               </p>
             </div>
         </div>
