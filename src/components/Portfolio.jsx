@@ -2,6 +2,9 @@ import React from 'react'
 // import excel from '../assets/portfolio/excel.jpg'
 import login from '../assets/portfolio/login.jpg'
 import roadmap from '../assets/portfolio/roadmap.jpg'
+import rebuild from '../assets/portfolio/rebuild.png'
+import flowerimperial from '../assets/portfolio/flowerimperial.png'
+import finimage from '../assets/portfolio/finimage.png'
 // import sheet from '../assets/portfolio/sheet.jpg'
 // import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import sourcereflect from '../assets/portfolio/sourcereflect.png'
@@ -19,10 +22,16 @@ const Portfolio = () => {
         //     demo: 'https://docs.google.com/spreadsheets/d/1mmwzcQNCNh68F8ZPdFCld-YAtKRy7YksgpVRD9tPOlM/edit#gid=759693817&range=A11'
         // },
         {
+            id: 2,
+            src: rebuild,
+            code: '',
+            demo: 'https://rebuildwithlove.online/'
+        },
+        {
             id: 3,
-            src: roadmap,
-            code: 'https://github.com/TechStarsCommunity/FE-Online_Library/tree/Blessing-Roadmap',
-            demo: 'https://book-slab.netlify.app/'
+            src: flowerimperial,
+            code: '',
+            demo: 'https://flowersimperial.com/'
         },
         // {
         //     id: 4,
@@ -39,6 +48,12 @@ const Portfolio = () => {
             src: sourcereflect,
             code: 'https://github.com/blessingsmart/sourcereflect1',
             demo: 'https://sourcereflect.netlify.app/'
+        },
+        {
+            id: 7,
+            src: finimage,
+            code: '',
+            demo: 'https://finimagedata.com/'
         },
     ]
 

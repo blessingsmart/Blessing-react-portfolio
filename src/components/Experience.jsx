@@ -8,6 +8,8 @@ import Laravel from "../assets/laravel.png";
 import MySQL from "../assets/mysql.png";
 import Firebase from "../assets/firebase.svg";
 import tailwind from "../assets/tailwind.png";
+import Wordpress from "../assets/wordpress.png";
+import Wix from "../assets/wix.png";
 import Mongodb from "../assets/mongodb.png";
 
 const Experience = () => {
@@ -32,36 +34,48 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: Wordpress,
+      title: "Wordpress",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: Wix,
+      title: "Wix",
+      style: "shadow-yellow-600",
+    },
+    {
+      id: 6,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 8,
       src: expressjs,
       title: "ExpressJS",
       style: "shadow-white",
     },
     {
-      id: 7,
+      id: 9,
       src: MySQL,
       title: "MySQL",
       style: "shadow-yellow-700",
     },
     {
-      id: 8,
+      id: 10,
       src: Firebase,
       title: "Firebase",
       style: "shadow-yellow-500",
     },
     {
-      id: 9,
+      id: 11,
       src: Mongodb,
       title: "MongoDB",
       style: "shadow-green-500",
