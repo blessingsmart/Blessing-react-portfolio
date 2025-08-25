@@ -8,6 +8,7 @@ import finimage from '../assets/portfolio/finimage.png'
 // import sheet from '../assets/portfolio/sheet.jpg'
 // import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import sourcereflect from '../assets/portfolio/sourcereflect.png'
+import wechorafoods from '../assets/portfolio/wechorafoods.png'
 
 const Portfolio = () => {
     const portfolios = [
@@ -54,6 +55,12 @@ const Portfolio = () => {
             src: finimage,
             code: '',
             demo: 'https://finimagedata.com/'
+        },
+        {
+            id: 7,
+            src: wechorafoods,
+            code: '',
+            demo: 'https://gilded-tapioca-5f517a.netlify.app/'
         },
     ]
 
