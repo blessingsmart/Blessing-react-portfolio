@@ -11,7 +11,7 @@ const Home = () => {
                 <h2 className="text-4xl sm:text-6xl font-bold text-white mt-20 md:mt-0">
                     I'm a Full Stack Developer & Graphics Designer
                 </h2>
-                <p className="text-gray-500 py-4 max-w-md">I specialize in building responsive web applications using React, TypeScript, NextJs, and Laravel. 
+                <p className="text-gray-500 py-4 max-w-md">I specialize in building responsive web applications using React, TypeScript, NextJs, Laravel, Wordpress and Wix. 
                   I also design stunning visual content with tools like Photoshop, Figma, and Canva. 
                   My work blends clean code with creative visuals to deliver seamless digital experiences. </p>
                 <div>

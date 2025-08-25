@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div>
               <p className='text-xl'>
-                   I'm a versatile and creative Full Stack Developer with a strong foundation in React, TypeScript, NextJs, Laravel, and PHP. I specialize in building scalable and responsive web applications that deliver smooth user experiences. With hands-on experience in developing RESTful APIs, designing admin dashboards, and collaborating with teams across digital projects, I’m passionate about clean code and user-focused design.
+                   I'm a versatile and creative Full Stack Developer with a strong foundation in React, TypeScript, NextJs, PHP, Laravel, Wordpress and Wix. I specialize in building scalable and responsive web applications that deliver smooth user experiences. With hands-on experience in developing RESTful APIs, designing admin dashboards, and collaborating with teams across digital projects, I’m passionate about clean code and user-focused design.
               </p>
               <br/>
               <p className='text-xl'>
